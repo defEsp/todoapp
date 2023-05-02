@@ -1,0 +1,86 @@
+body {
+    background-color: #BFCCB5;
+}
+
+.header {
+    background-color: #7C96AB;
+    color: rgba(0, 0, 0, 0.486);
+    text-align: center;
+    padding: 30px 40px;
+    margin: 0px 500px;
+    margin-top: 100px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+input {
+    /* margin 0; */
+    border: none;
+    border-radius: 3px;
+    width: 75%;
+    padding: 11px;
+    float: inline-start;
+    font-size: 15px;
+}
+
+.mainBtn {
+    padding: 10px;
+    background: #EDC6B1;
+    text-align: center;
+    border-radius: 3px;
+    width: 100px;
+}
+
+.mainBtn:hover {
+    background-color: #edc6b1cc;
+    cursor: pointer;
+}
+
+ul {
+    margin: 0px 500px;
+}
+
+ul li {
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    margin-left: -40px;
+    background-color: #b7b7b7;
+    list-style: none;
+    cursor: pointer;
+    font-size: 20px;
+
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+} 
+
+
+ul li.checked {
+    background: #EDC6B1;
+    color: #ec5454c7;
+    text-decoration: line-through;
+  }
+
+ul li:nth-child(odd){
+    background: #b8b8b8b7;
+}
+
+ul li:hover {
+    background: #EDC6B1;
+  }
+
+
+.delBut {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    color: rgb(0, 0, 0);
+  }
+
+.delBut:hover {
+    background: #ec545459;
+}
+  
